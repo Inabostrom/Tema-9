@@ -4,3 +4,21 @@
     box-sizing: border-box;
 }
 
+article{
+    display: grid;
+}
+
+
+
+.article-body{
+    columns: 1 25ch;
+    /* gap:4rem;  */
+}
+
+@media (min-width:40em){
+    article{
+        grid-template-columns: 1fr 2fr;
+
+        max-width: 100em;
+        margin: auto;
+    }
