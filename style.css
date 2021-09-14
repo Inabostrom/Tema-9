@@ -19,8 +19,14 @@ article{
 }
 
 .main-header h1{
-font-size: 78px;
-font-family: 'Times New Roman', Times, serif;
+    font-size: 78px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.first-picture-row img{
+    height: 20rem; 
+    object-fit: cover; /* for å unngå å strekke bilde, beskjærer bilde*/ 
 }
 
 .container{
@@ -52,7 +58,15 @@ background-color: aqua;
     line-height: 35px;
 }
 
-
+/* img#lekeplass-dal-600x421 {
+    width: 600px;
+    height: 421px;
+}
+img#lekeplass-fjell-543x421 {
+    width: 543px;
+    height: 421px;
+}
+ */
 
 
      
