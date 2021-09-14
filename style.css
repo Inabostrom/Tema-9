@@ -5,17 +5,28 @@
 }
 
 article{
-    display: grid;
+    background-color: antiquewhite;
+   display: grid;  /* teksten forflytter seg på siden, ved responsiv */
+}
+
+.main-header{
+    min-height: 55vh;
+    display: flex; /* overskriften blir midtstilt og responsiv  */
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
 }
 
 .subheading{
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
+background-color: aqua;
 }
 
 .article-body{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    background-color: cadetblue;
 }
 
 .article-body{
