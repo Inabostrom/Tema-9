@@ -17,6 +17,13 @@ article{
     justify-content: center;
 }
 
+.container{
+    width: 90%;
+    max-width: 80rem; 
+    margin: auto;
+    margin-top: cover;
+}
+
 .subheading{
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
