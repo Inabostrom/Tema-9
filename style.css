@@ -8,7 +8,10 @@ article{
     display: grid;
 }
 
-
+.subheading{
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
 
 .article-body{
     columns: 1 25ch;
