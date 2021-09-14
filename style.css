@@ -29,6 +29,12 @@ background-color: aqua;
     background-color: cadetblue;
 }
 
+.bold{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: cornflowerblue;
+}
+
 .article-body{
     columns: 1 25ch;
     /* gap:4rem;  */
