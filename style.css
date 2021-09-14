@@ -29,6 +29,16 @@ article{
     object-fit: cover; /* for å unngå å strekke bilde, beskjærer bilde*/ 
 }
 
+.second-picture-row img{
+    height: 15rem; 
+    object-fit: cover;
+}
+
+.third-picture-row img{
+    height: 25rem; 
+    object-fit: cover;
+}
+
 .container{
     width: 90%;
     max-width: 80rem; 
