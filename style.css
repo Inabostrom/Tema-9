@@ -18,8 +18,9 @@ article{
     background-color: cornflowerblue;
 }
 
-.main-header h2{
+.main-header h1{
 font-size: 78px;
+font-family: 'Times New Roman', Times, serif;
 }
 
 .container{
@@ -45,13 +46,13 @@ background-color: aqua;
     background-color: cadetblue;
 }
 
-.text-bold{
+.article-body b{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
     font-size: 20px;
     line-height: 35px;
-    background-color: cornflowerblue;
 }
+
+
 
 
      
