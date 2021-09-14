@@ -6,7 +6,7 @@
 
 article{
     background-color: antiquewhite;
-   display: grid;  /* teksten forflytter seg på siden, ved responsiv */
+   /* display: grid;  teksten forflytter seg på siden, ved responsiv */
 }
 
 .main-header{
@@ -39,6 +39,8 @@ background-color: aqua;
 .bold{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
     background-color: cornflowerblue;
 }
 
