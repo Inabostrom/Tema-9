@@ -39,6 +39,13 @@ article{
     object-fit: cover;
 }
 
+.gallery{
+    background-color: rgb(167, 106, 26);
+    display: grid;
+    grid-template-rows: 3fr 3fr;
+
+}
+
 .container{
     width: 90%;
     max-width: 80rem; 
