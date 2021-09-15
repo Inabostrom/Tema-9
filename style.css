@@ -70,8 +70,6 @@ article{
     margin-bottom: 4rem;
     margin-top:3rem;
 
-    column-rule: 5px solid var(--clr-primary-900);
-
     padding: 1rem;
     
  }
@@ -100,6 +98,7 @@ article{
     margin-top: cover;
 }  
 
+
 p.ingress{
 font-family: 'Roboto', sans-serif;
 font-weight: 700; 
@@ -120,8 +119,7 @@ p.bold{
     font-family: 'Roboto', sans-serif;
     font-weight: 700; /*bør jeg velge en annen weight?*/
     font-size: 20px;
-    line-height: 35px;
-    
+    line-height: 35px;  
 }
 
 p{
@@ -132,11 +130,11 @@ p{
    background-color:white; 
 }
 
-.article-body b{
+/* .article-body b{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 35px;
-}
+} */
 
 
 
