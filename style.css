@@ -49,9 +49,24 @@ article{
     object-fit: cover; /* for å unngå å strekke bilde, beskjærer bilde*/ 
 }
 
+.lek{
+    margin: 5px;
+    border: 1px solid rgb(212, 14, 14);
+    float: left;
+    width: 180px;
+}
+
+figcaption{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700; 
+
+}
+
 .second-picture-row img{
     height: 15rem; 
     object-fit: cover;
+  
 }
 
 .third-picture-row img{
@@ -65,7 +80,7 @@ article{
     margin: auto;
     margin-top: cover;
     
-    background-color: rgb(167, 106, 26);
+    /* background-color: rgb(167, 106, 26); */
 
     margin-bottom: 4rem;
     margin-top:3rem;
