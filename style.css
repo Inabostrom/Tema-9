@@ -1,13 +1,17 @@
 :root{
+    
     --clr-primary-900:hsl(0, 0%, 100%);
     --clr-primary-800:hsl(0, 0%, 90%);
-    --clr-primary-700:hsl(0, 0%, 80%);
-    --clr-primary-600:hsl(0, 0%, 75%);
-    --clr-primary-500:hsl(0, 0%, 60%);
-    --clr-primary-400:hsl(0, 0%, 50%);
-    --clr-primary-300:hsl(0, 0%, 40%);
-    --clr-primary-200:hsl(0, 0%, 30%);
-    --clr-primary-100:hsl(0, 0%, 20%);
+    --clr-primary-800:hsl(0, 0%, 80%);
+    --clr-primary-800:hsl(0, 0%, 75%);
+    --clr-primary-700:hsl(0, 0%, 70%);
+    --clr-primary-600:hsl(0, 0%, 60%);
+    --clr-primary-500:hsl(0, 0%, 50%);
+    --clr-primary-400:hsl(0, 0%, 40%);
+    --clr-primary-300:hsl(0, 0%, 30%);
+    --clr-primary-200:hsl(0, 0%, 20%);
+    --clr-primary-100:hsl(0, 0%, 10%); 
+    --clr-primary-100:hsl(0, 0%, 0%);
 }
 
 *{
@@ -21,7 +25,7 @@ img{
 }
 
 article{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
    /* display: grid;  teksten forflytter seg på siden, ved responsiv */
 }
 
@@ -66,6 +70,8 @@ article{
     margin-bottom: 4rem;
     margin-top:3rem;
 
+    column-rule: 5px solid var(--clr-primary-900);
+
     padding: 1rem;
     
  }
@@ -94,24 +100,31 @@ article{
     margin-top: cover;
 }  
 
-.subheading{
+p.ingress{
 font-family: 'Roboto', sans-serif;
 font-weight: 700; 
 font-size: 24px;
 line-height: 36px;
 margin-bottom: 4rem;
-background-color: aqua;
+color: var(--clr-primary-600);
+background-color: rgb(255, 255, 255);
 }
 
-.bold{
+.byline{
+font-family: 'Roboto', sans-serif;
+font-weight: 700; 
+font-size: 24px;
+}
+
+p.bold{
     font-family: 'Roboto', sans-serif;
-    font-weight: 100; /*bør jeg velge en annen weight?*/
+    font-weight: 700; /*bør jeg velge en annen weight?*/
     font-size: 20px;
     line-height: 35px;
-    color:hsl(0, 0%, 75%);
+    
 }
 
-.article-body p{
+p{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 20px;
