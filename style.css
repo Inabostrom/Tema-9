@@ -1,3 +1,15 @@
+:root{
+    --clr-primary-900:hsl(0, 0%, 100%);
+    --clr-primary-800:hsl(0, 0%, 90%);
+    --clr-primary-700:hsl(0, 0%, 80%);
+    --clr-primary-600:hsl(0, 0%, 75%);
+    --clr-primary-500:hsl(0, 0%, 60%);
+    --clr-primary-400:hsl(0, 0%, 50%);
+    --clr-primary-300:hsl(0, 0%, 40%);
+    --clr-primary-200:hsl(0, 0%, 30%);
+    --clr-primary-100:hsl(0, 0%, 20%);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -84,7 +96,7 @@ article{
 
 .subheading{
 font-family: 'Roboto', sans-serif;
-font-weight: 700;
+font-weight: 700; 
 font-size: 24px;
 line-height: 36px;
 margin-bottom: 4rem;
@@ -92,7 +104,11 @@ background-color: aqua;
 }
 
 .bold{
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; /*bør jeg velge en annen weight?*/
+    font-size: 20px;
+    line-height: 35px;
+    color:hsl(0, 0%, 75%);
 }
 
 .article-body p{
@@ -100,7 +116,7 @@ background-color: aqua;
     font-weight: 100;
     font-size: 20px;
     line-height: 35px;
-    background-color: cadetblue;
+   background-color:white; 
 }
 
 .article-body b{
@@ -109,15 +125,7 @@ background-color: aqua;
     line-height: 35px;
 }
 
-/* img#lekeplass-dal-600x421 {
-    width: 600px;
-    height: 421px;
-}
-img#lekeplass-fjell-543x421 {
-    width: 543px;
-    height: 421px;
-}
- */
+
 
 
      
