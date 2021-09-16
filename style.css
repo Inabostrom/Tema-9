@@ -112,8 +112,8 @@ figure.fig-margin {
 
 
 .gallery{
-     width: 100%; 
-    /* max-width: 90rem;  */
+     /* width: 100%;  */
+    max-width: 80rem; 
     margin: auto; 
     margin-top: cover;
     
@@ -126,6 +126,7 @@ figure.fig-margin {
     padding: 1rem;
     
  }
+
 
      /* display: grid; 
 
@@ -222,6 +223,10 @@ p{
     .third-picture-row img{
         height: 15rem; 
        
+    }
+
+    .gallery{
+        width: 100%;
     }
 }
 
