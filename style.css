@@ -48,16 +48,19 @@ figcaption{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 700; 
-
 }
 
-.border{
-  /* margin: 5px; */
+figure {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+/* .border{
+
   border: 1px solid;
-  border-color: var(--clr-primary-800);
-  /* float: left; */
-  /* width: 180px; */
-  
+  border-color: var(--clr-primary-800); 
 }
 
 .st-pic-border{
@@ -65,17 +68,34 @@ figcaption{
     border-color: var(--clr-primary-800);
     max-width: 100%;
     min-width: 650px;
-}
+} */
 
 figure.fig-margin {
     margin-bottom: 1rem;
 }
 
+.first-picture-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .first-picture-row img{
-    height: 20rem; 
+    height: 30rem;
     object-fit: cover; /* for å unngå å strekke bilde, beskjærer bilde*/ 
+
     /* margin-bottom: 1rem; */
+}
+
+@media only screen and (max-width: 780px) {
+    .first-picture-row {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .first-picture-row img{
+        height: 16rem;
+    }
 }
 
 .second-picture-row img{
