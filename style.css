@@ -151,6 +151,10 @@ figure.fig-margin {
     margin-top: cover;
 }  
 
+.line-heigt{
+    margin: 1rem;
+}
+
 
 p.ingress{
 font-family: 'Roboto', sans-serif;
