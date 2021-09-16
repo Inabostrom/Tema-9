@@ -189,6 +189,7 @@ p{
     line-height: 35px;
 } */
 
+
 @media only screen and (max-width: 780px) { /*mobil og ipad*/
     .first-picture-row {
         display: grid;
@@ -220,5 +221,16 @@ p{
     }
 }
 
+/*large-image pages*/
 
-     
+.top-left{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.large-image-container{
+    position: relative;
+    text-align: center;
+    color: var(--clr-primary-900);
+}
