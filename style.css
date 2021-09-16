@@ -24,10 +24,11 @@ img{
     max-width: 100%;
 }
 
-article{
+/* article{
     background-color: rgb(255, 255, 255);
-   /* display: grid;  teksten forflytter seg på siden, ved responsiv */
-}
+} */
+
+/*header*/
 
 .main-header{
     min-height: 55vh;
@@ -44,18 +45,24 @@ article{
 
 }
 
+/*images text style*/
+
 figcaption{
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    /* font-weight: 700;  */
+    font-size: 15px;
+    font-weight: 700;
 }
 
-figure {
+cite{
+    color: var( --clr-primary-500) ;
+}
+
+/* figure {
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: flex;               /* denne trens ikke?
     flex-direction: column; 
-}
+} */
 
 /* .border{
 
@@ -82,7 +89,6 @@ figure.fig-margin {
 .first-picture-row img{
     height: 20rem;
     object-fit: cover; /* for å unngå å strekke bilde, beskjærer bilde*/ 
-
     /* margin-bottom: 1rem; */
 }
 
@@ -108,23 +114,17 @@ figure.fig-margin {
     margin-top: 1rem;
 }
 
-
-
-
 .gallery{
      /* width: 100%;  */
     max-width: 80rem; 
     margin: auto; 
     margin-top: cover;
-    
-    
-    /* background-color: rgb(167, 106, 26); */
-
     margin-bottom: 4rem;
     margin-top:3rem;
 
     padding: 1rem;
     
+    /* background-color: rgb(167, 106, 26); */
  }
 
 
@@ -138,12 +138,11 @@ figure.fig-margin {
 
 }
 
-
 .first-picture-row{
 
 } */
 
-
+/*text container*/
 
 .container{
     width: 90%;
@@ -155,7 +154,6 @@ figure.fig-margin {
 .line-heigt{
     margin: 1rem;
 }
-
 
 p.ingress{
 font-family: 'Roboto', sans-serif;
@@ -175,7 +173,7 @@ font-size: 24px;
 
 p.bold{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700; /*bør jeg velge en annen weight?*/
+    font-weight: 700; 
     font-size: 20px;
     line-height: 35px;  
 }
@@ -195,6 +193,7 @@ p{
 } */
 
 
+
 @media only screen and (max-width: 780px) { /*mobil og ipad*/
     .first-picture-row {
         display: grid;
@@ -209,7 +208,8 @@ p{
     
     .third-picture-row{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 2fr ;
     }
 
     .first-picture-row img{
@@ -222,12 +222,11 @@ p{
 
     .third-picture-row img{
         height: 15rem; 
-       
     }
 
-    .gallery{
+    /* .gallery{
         width: 100%;
-    }
+    } */
 }
 
 /*large-image pages*/
