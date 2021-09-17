@@ -77,6 +77,8 @@ cite{
     min-width: 650px;
 } */
 
+/*images style*/
+
 figure.fig-margin {
     margin-bottom: 1rem;
 }
@@ -152,7 +154,12 @@ figure.fig-margin {
 }  
 
 .line-heigt{
-    margin: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+.line-feed{
+    display: block;
 }
 
 p.ingress{
@@ -194,7 +201,7 @@ p{
 
 
 
-@media only screen and (max-width: 780px) { /*mobil og ipad*/
+@media only screen and (max-width: 780px) { /*mobil og ipad      Desktop*/
     .first-picture-row {
         display: grid;
         grid-template-columns: 1fr;
