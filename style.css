@@ -164,7 +164,7 @@ p.bold {
 }
 .large-image-container figcaption
 {
-    color: var(--clr-primary-100);
+    /*color: var(--clr-primary-100*/);
     margin-left: 1rem;
     margin-right: 1rem;
 }
