@@ -105,9 +105,7 @@ figure.fig-margin {
 /*text container*/
 
 .container {
-  width: 90%;
-  max-width: 80rem;
-  margin: auto;
+  max-width: 90%;
   margin-top: cover;
 }
 
@@ -169,6 +167,15 @@ p.bold {
 }
 @media screen and (min-width: 781px) {
     /*desktop*/
+
+
+    .container {
+      max-width: 70%;
+      margin: none;
+      margin-left: 3rem;
+
+    }
+    
 
     .main-header {
         display: grid;
