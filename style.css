@@ -105,11 +105,11 @@ figure.fig-margin {
 /*text container*/
 
 .container {
-  width: 90%;
+  /* width: 90%; */
   margin: auto;
   max-width: 50ch;
   /* max-width: 90%; */
-  margin-top: cover;
+  /* margin-top: cover; */
 }
 
 .line-heigt {
@@ -172,11 +172,11 @@ p.bold {
     /*desktop*/
 
 
-    .container {
+    /* .container {
       max-width: 70%;
       margin: none;
       margin-left: 3rem;
-    }
+    } */
     
     .main-header {
         display: grid;
