@@ -105,7 +105,10 @@ figure.fig-margin {
 /*text container*/
 
 .container {
-  max-width: 90%;
+  width: 90%
+  margin: auto;
+  max-width: 50ch;
+  /* max-width: 90%; */
   margin-top: cover;
 }
 
