@@ -19,19 +19,70 @@
   box-sizing: border-box;
 }
 
+ .nav-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 55px;
+  padding-bottom: 55px;
+
+  
+  /* position: absolute; */
+  height: 63px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+} 
+
+
+h1 {
+width: 320px;
+font-size: 45px; 
+text-align: right;
+/* font-size: 78px; */
+font-family: "Times New Roman", Times, serif;
+
+}
+.align-area-end{
+  align-self: end;
+  justify-self: end;
+}
+
+h2{
+width: 320px;
+font-size: 35px; 
+font-family: "Times New Roman", Times, serif;
+
+}
+
+
+.border-h1{
+  width: 320px;
+  border: 1px solid #4C4C4C;
+}
+
+.border-h2{
+  width: 320px;
+  border: 1px solid #F59331;
+}
+
 img {
   max-width: 100%;
-}
+} 
 
 /*header*/
 
-.main-header {
-  min-height: 55vh;
-}
+/* .main-header {
+  min-height: 55vh; 
+ trenger jeg denne?
+} */
 
-.main-header h1 {
-  font-size: 78px;
-  font-family: "Times New Roman", Times, serif;
+.main-header  {
+
+width: 1440px;
+height: 308.79px;
+right: 0px;
+  top: 165px;
+
 }
 
 /*images text style*/
@@ -39,17 +90,32 @@ img {
 figcaption {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
+  /* font-weight: 700; *//*bold på font under bildene?*/
 }
 
 cite {
-  color: var(--clr-primary-500);
+  /* color: var(--clr-primary-500); */
+  color: var(--clr-primary-300);
 }
 
 .font-color {
-  color: var(--clr-primary-200);
+  /* color: var(--clr-primary-200); */
   font-family: "Roboto", sans-serif;
   font-size: 15px;
+  font-weight: 700;
+}
+
+a:visited{
+  color: var(--clr-primary-100)
+}
+
+a:link{
+  color: var(--clr-primary-100);
+}
+
+a:hover{
+  color: var(--clr-primary-300);
 }
 
 /*images style*/
@@ -68,9 +134,10 @@ figure.fig-margin {
   object-fit: cover; /* for å unngå å strekke bilde, beskjærer bilde*/
 }
 
-.images-grid {
+/* .images-grid {
   float: left;
-}
+} */ /*trenger denne?*/
+
 .second-picture-row { /*andre rad, to bilder*/
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -93,62 +160,70 @@ figure.fig-margin {
   margin-top: 1rem;
 }
 
-.gallery {
+.main-container { /*for hele siden? både desktop og mobil*/
   max-width: 80rem;
+  width: 90%; /*denne la jeg til etter tilbakemeldig*/
   margin: auto;
   margin-top: cover;
-  margin-bottom: 4rem;
-  margin-left: 3rem;
-  padding: 1rem;
+  /* margin-bottom: 4rem; /* dette fjernet jeg*/
+  /*margin-left: 3rem;
+  padding: 1rem; */
 }
 
 /*text container*/
 
-.container {
+.article-container{ /*for desktop*/
   /* width: 90%; */
-  margin: auto;
-  max-width: 50ch;
+  margin: auto; 
+ max-width: 50ch; 
   /* max-width: 90%; */
   /* margin-top: cover; */
 }
 
 .line-heigt {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem; 
+  /* margin-bottom: 3rem; */
 }
 
 .line-feed {
   display: block;
-}
+} 
 
 p.ingress {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
-  line-height: 36px;
+  /* line-height: 36px; */
+  line-height: 30px; 
   margin-bottom: 4rem;
-  color: var(--clr-primary-500);
-  background-color: rgb(255, 255, 255);
+  /* color: var(--clr-primary-500); */
+  color: var(--clr-primary-300); 
+  /* background-color: rgb(255, 255, 255); */
+  margin-top: 4rem;
 }
 
 .byline {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
+  /* font-weight: 700; */
+  font-weight: 300;
+  /* font-size: 24px; */
+  font-size: 22px;
 }
 
 p.bold {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  line-height: 35px;
+  /* line-height: 35px; */
 }
 
  p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 35px;
-  background-color: white;
+  /* line-height: 35px; */
+  line-height: 32px;
+  /* background-color: white; */
 } 
 
 /*large-image pages*/
@@ -163,11 +238,23 @@ p.bold {
   position: relative; /* legger seg som standard */
   text-align: center;
 }
-.large-image-container figcaption
+ .large-image-container figcaption
 {
     margin-left: 1rem;
     margin-right: 1rem;
+} 
+
+.footer-container{
+  padding:7px 0px 0px 20px;
+  background-color: hsl(0, 0%, 20%);
+  color:hsl(0, 0%, 100%);
+  height: 30px;
+  text-align: center;
+
+  
 }
+
+
 @media screen and (min-width: 781px) {
     /*desktop*/
 
@@ -176,6 +263,13 @@ p.bold {
       max-width: 70%;
       margin: none;
       margin-left: 3rem;
+    } */
+
+    /*eksamen ny*/
+    /* .container {
+      width: 90%;
+      margin: auto;
+      max-width: 90%; 
     } */
     
     .main-header {
@@ -227,6 +321,7 @@ p.bold {
 }
 @media only screen and (max-width: 780px) {
   /*mobil og ipad*/ 
+
   .first-picture-row {
     display: grid;
     grid-template-columns: 1fr;
@@ -257,7 +352,7 @@ p.bold {
     max-width: 350px;
   }
 
-  .gallery {
+ /* .gallery {
     margin-left: 1rem;
-  }
+  }  */
 }
