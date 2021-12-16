@@ -24,18 +24,11 @@
   grid-template-columns: 1fr 1fr;
   padding-top: 55px;
   padding-bottom: 55px;
-
-  
-  /* position: absolute; */
-  height: 63px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
 } 
 
 
 h1 {
-width: 320px;
+width: 30vw;
 font-size: 45px; 
 text-align: right;
 /* font-size: 78px; */
@@ -48,7 +41,7 @@ font-family: "Times New Roman", Times, serif;
 }
 
 h2{
-width: 320px;
+width: 40vw;
 font-size: 35px; 
 font-family: "Times New Roman", Times, serif;
 
@@ -56,12 +49,12 @@ font-family: "Times New Roman", Times, serif;
 
 
 .border-h1{
-  width: 320px;
+  width: 30vw;
   border: 1px solid #4C4C4C;
 }
 
 .border-h2{
-  width: 320px;
+  width: 40vw;
   border: 1px solid #F59331;
 }
 
@@ -76,14 +69,6 @@ img {
  trenger jeg denne?
 } */
 
-.main-header  {
-
-width: 1440px;
-height: 308.79px;
-right: 0px;
-  top: 165px;
-
-}
 
 /*images text style*/
 
@@ -254,6 +239,10 @@ p.bold {
   
 }
 
+article{
+  margin-top: 2rem;
+}
+
 
 @media screen and (min-width: 781px) {
     /*desktop*/
@@ -272,6 +261,7 @@ p.bold {
       max-width: 90%; 
     } */
     
+
     .main-header {
         display: grid;
         width: 100%;
@@ -286,6 +276,7 @@ p.bold {
       .main-header > .head1 {
           grid-area: head1;
           text-align: right;
+          align-self: end;
       }
       
       .main-header > .head6 {
@@ -321,6 +312,15 @@ p.bold {
 }
 @media only screen and (max-width: 780px) {
   /*mobil og ipad*/ 
+  article{
+    margin-top: 0rem;
+  }
+
+  .nav-container{
+    display: inline;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  } 
 
   .first-picture-row {
     display: grid;
@@ -351,6 +351,31 @@ p.bold {
     min-height: 340px;
     max-width: 350px;
   }
+
+
+  h1 {
+    width: 100vw;
+    font-size: 45px; 
+    text-align: left;
+    margin-left: 5vw;
+    }
+    
+    h2{
+    width: 100vw;
+    font-size: 35px;
+    margin-left: 5vw;
+    margin-bottom: 2rem;
+    }
+    
+    .border-h1{
+      width: 100vw;
+      border: 1px solid #4C4C4C;
+    }
+    
+    .border-h2{
+      width: 50vw;
+      border: 0px solid #F59331;
+    }
 
  /* .gallery {
     margin-left: 1rem;
